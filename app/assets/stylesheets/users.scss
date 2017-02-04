@@ -24,16 +24,20 @@ html {
     margin-bottom: 0px;
     height: 80px;
 }
-.forty {
-  width: 40%;
+.spa_list {
+  line-height: 2;
 }
-.sixty {
-  width: 60%;
+.mission {
+  margin-bottom: 0px;
 }
-// .info_container {
-//   width: 100%;
-// }
-// .info_section {
-//   width: 85%;
-//   margin: auto;
-// }
+.spa_list .light {
+    list-style-type: circle;
+    font-size: 1.2em;
+}
+
+p.light {
+    font-size: 1.2em;
+}
+.forty-div {
+  border-right: 2px solid #e04075;
+}
