@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @reservation.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @reservation.last_name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @reservation.email %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @reservation.phone %>
+</p>
+
+<p>
+  <strong>Dog breed:</strong>
+  <%= @reservation.dog_breed %>
+</p>
+
+<p>
+  <strong>Dog size:</strong>
+  <%= @reservation.dog_size %>
+</p>
+
+<p>
+  <strong>Dog name:</strong>
+  <%= @reservation.dog_name %>
+</p>
+
+<p>
+  <strong>Date preference:</strong>
+  <%= @reservation.date_preference %>
+</p>
+
+<%= link_to 'Edit', edit_reservation_path(@reservation) %> |
+<%= link_to 'Back', reservations_path %>
