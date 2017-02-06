@@ -6,6 +6,7 @@ Rails.application.routes.draw do
     resources :users, only: [:index, :new, :create, :show, :edit, :update]
   	get '/about', to: 'users#about'
   	get '/rates', to: 'users#rates'
+    get '/reservation', to: 'users#reservation'
 
     resource :sessions, only: [:new, :create, :destroy]
 end
