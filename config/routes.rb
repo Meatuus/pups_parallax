@@ -4,9 +4,9 @@ Rails.application.routes.draw do
 
   # get '/users', to: 'users#index'
     resources :users, only: [:index, :new, :create, :show, :edit, :update]
+    resources :reservations, only: [:new, :create]
   	get '/about', to: 'users#about'
   	get '/rates', to: 'users#rates'
-    get '/reservation', to: 'users#reservation'
 
     resource :sessions, only: [:new, :create, :destroy]
 end
